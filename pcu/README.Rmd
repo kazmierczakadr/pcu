@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# pcu
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Its goal is to simplify conversion of the most-used units. You can easily calculate **Metric Units** to **SI Units** and conversely.
+
+
+## Installation
+
+The development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("spacea/pakiet_pcu")
+```
+## Example
+
+```{r example}
+library(pcu)
+# Fahrenheit to Celsius conversion
+f_to_c(25)
+```
+
